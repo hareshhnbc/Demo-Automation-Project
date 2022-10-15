@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="KA Test Suite">
+  <test name="CloudOffice_CHROME_Test ">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="module" value="CloudOffice"/>
+    <classes>
+      <class name="com.ka.testsuite.TestSuiteExecuter"/>
+    </classes>
+  </test> <!-- CloudOffice_CHROME_Test  -->
+  <test name="Login_CHROME_Test ">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="module" value="Login"/>
+    <classes>
+      <class name="com.ka.testsuite.TestSuiteExecuter"/>
+    </classes>
+  </test> <!-- Login_CHROME_Test  -->
+</suite> <!-- KA Test Suite -->

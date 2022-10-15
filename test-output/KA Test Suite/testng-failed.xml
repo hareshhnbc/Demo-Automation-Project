@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KA Test Suite]">
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="module" value="TestProjectIO"/>
+  <test name="TestProjectIO_CHROME_Test (failed)">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="module" value="TestProjectIO"/>
+    <classes>
+      <class name="com.ka.testsuite.TestSuiteExecuter">
+        <methods>
+          <include name="executeTest" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ka.testsuite.TestSuiteExecuter -->
+    </classes>
+  </test> <!-- TestProjectIO_CHROME_Test (failed) -->
+</suite> <!-- Failed suite [KA Test Suite] -->

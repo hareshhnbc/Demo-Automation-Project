@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><suite name="Login" parallel="none">
+  <test name="Login">
+    <classes>
+      <class name="com.ka.testsuite.Login"/>
+    </classes>
+  </test>
+</suite>
