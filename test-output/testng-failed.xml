@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [KA Test Suite]">
   <parameter name="browser" value="CHROME"/>
-  <parameter name="module" value="TestProjectIO"/>
-  <test name="TestProjectIO_CHROME_Test (failed)">
+  <parameter name="module" value="ParaBankData"/>
+  <test name="ParaBankData_CHROME_Test (failed)">
     <parameter name="browser" value="CHROME"/>
-    <parameter name="module" value="TestProjectIO"/>
+    <parameter name="module" value="ParaBankData"/>
     <classes>
       <class name="com.ka.testsuite.TestSuiteExecuter">
         <methods>
@@ -16,5 +16,5 @@
         </methods>
       </class> <!-- com.ka.testsuite.TestSuiteExecuter -->
     </classes>
-  </test> <!-- TestProjectIO_CHROME_Test (failed) -->
+  </test> <!-- ParaBankData_CHROME_Test (failed) -->
 </suite> <!-- Failed suite [KA Test Suite] -->
